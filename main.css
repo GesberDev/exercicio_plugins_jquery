@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    background-color: rgb(76, 54, 155);
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    height: 20px;
+    margin-top: 10px;
+}
